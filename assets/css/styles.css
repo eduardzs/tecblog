@@ -1,0 +1,169 @@
+/*Formatando Padrões*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Corpo do Site*/
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+/*Cores*/
+.branco{
+    color: #FFF;
+}
+
+/*Padrões*/
+a{
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(80, 78, 78);
+    font-size: 40px;
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    margin: 15px;
+}
+
+/*Cabeçalho e Menus*/
+#cabecalho{
+    background-color: #F7B600;
+    padding: 25px;
+    text-align: center;
+}
+
+#logo{
+    padding: 10px;
+    margin-bottom:10px;
+}
+#menu-cab a{
+    padding: 5px;
+    color: #FFF;
+}
+
+#menu-cab a:link, a:visited{
+    color: #FFF;
+}
+
+#menu-cab a:hover{
+    color: #FFF;
+    background-color: #ffc832;
+
+}
+
+#menu-cab a:active{
+    background-color: #e2a600;
+}
+
+/*Postagens*/
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.postagem h2{
+    color: #ffbb00;
+}
+
+.postagem-txt{
+    font-size: 0.8em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.postagem p{
+    margin-bottom: 10px;
+}
+
+
+.postagem a{
+    color: #F7B600;
+}
+
+.postagem a:link, a:visited{
+    color: #F7B600;
+}
+
+.postagem a:hover{
+    color: #FFF;
+    background-color: #F7B600;
+    padding: 3px;
+}
+
+#postagem a:active{
+    background-color: #e2a600;
+}
+
+/*Postagens Recentes - Área Lateral*/
+#area-lateral{
+    background-color: #FFF;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#area-lateral p{
+    padding: 5px;
+}
+
+#area-lateral a{
+    margin: 5px;
+}
+
+/*Categorias*/
+#conteudo-lateral{
+    background-color: #FFF;
+    width: 250px;
+    float: right;
+}
+#conteudo-lateral a{
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+#conteudo-lateral a:link, a:visited{
+    color: #F7B600;
+}
+
+#conteudo-lateral a:hover{
+    color: #FFF;
+    background-color: #F7B600;
+}
+
+#conteudo-lateral a:active{
+    background-color: #e2a600;
+}
+
+/*Direitos*/
+#direitos h3{
+    text-align: center;
+    color: #FFF;
+    background-color: rgba(128, 128, 128, 0.288);
+    padding: 15px;
+    clear: both;
+}
